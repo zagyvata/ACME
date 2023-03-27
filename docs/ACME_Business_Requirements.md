@@ -16,14 +16,14 @@ Paywall subsystem development
 Editor tools and workflows enhancement
 CRM data analysis
 Infrastructure and cost optimization
-###1.3. Assumptions
+### 1.3. Assumptions
 
 Adequate budget allocation for the project
 Cooperation and support from all departments
 Availability of historical content for digitization
 Compliance with legal and regulatory requirements
 Business Requirements
-###2.1. OCR and Digitization
+### 2.1. OCR and Digitization
 
 Digitize all pre-1985 content using OCR technology
 Organize digitized content in a central database
