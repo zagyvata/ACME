@@ -1,4 +1,4 @@
-# ACME Digitalization WBS
+# ACME Digital Transformation Work Breakdown Structure
 ## 1. Environment Setup
 ### 1.1. Cloud Hosting
 ### 1.2. On-premises Hosting
