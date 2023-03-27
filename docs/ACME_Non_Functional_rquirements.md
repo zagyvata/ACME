@@ -66,16 +66,23 @@ The system must be well-documented, with clear and concise documentation availab
 
 ## 4. Cloud and on-prem considerations
 ### 4.1 Cloud
-Publishing software: Hosting the publishing software in the cloud will enable easy access for editors and staff members, promote collaboration, and ensure seamless updates and maintenance.
-E-commerce platform: Hosting the online shop in the cloud will provide scalability, ensuring it can handle traffic surges and accommodate growth in demand.
-CRM and subscription management system: Cloud hosting will allow for easier integration with other digital services, improved scalability, and more straightforward maintenance and updates.
-Paywall subsystem: Hosting the paywall in the cloud will ensure scalability and the ability to handle peak traffic loads without compromising performance.
-Data analysis tools: Cloud-based data analysis tools will enable real-time insights, easy collaboration, and secure access to data for authorized personnel.
+**Publishing software**: Hosting the publishing software in the cloud will enable easy access for editors and staff members, promote collaboration, and ensure seamless updates and maintenance.
+
+**E-commerce platform**: Hosting the online shop in the cloud will provide scalability, ensuring it can handle traffic surges and accommodate growth in demand.
+
+**CRM and subscription management system**: Cloud hosting will allow for easier integration with other digital services, improved scalability, and more straightforward maintenance and updates.
+
+**Paywall subsystem**: Hosting the paywall in the cloud will ensure scalability and the ability to handle peak traffic loads without compromising performance.
+
+**Data analysis tools**: Cloud-based data analysis tools will enable real-time insights, easy collaboration, and secure access to data for authorized personnel.
 
 ### 4.2 On-premises:
-Digitized content storage: Storing a backup of digitized content in ACME's data center will provide an additional layer of data security and redundancy.
-Sensitive customer data: Depending on compliance and regulatory requirements, some sensitive customer information may need to be stored on-premises to ensure data privacy and security.
-Intellectual property and trade secrets: Confidential information, such as unpublished works or proprietary business processes, should be stored on-premises for added security.
+**Digitized content storage**: Storing a backup of digitized content in ACME's data center will provide an additional layer of data security and redundancy.
+
+**Sensitive customer data**: Depending on compliance and regulatory requirements, some sensitive customer information may need to be stored on-premises to ensure data privacy and security.
+
+**Intellectual property and trade secrets**: Confidential information, such as unpublished works or proprietary business processes, should be stored on-premises for added security.
 
 ### 4.3 Hybrid:
-Infrastructure and content delivery: A hybrid approach can be used for hosting and delivering digital content. The primary infrastructure can be cloud-based for scalability and performance, while a backup and storage system can be maintained on-premises for redundancy and security.
+
+**Infrastructure and content delivery**: A hybrid approach can be used for hosting and delivering digital content. The primary infrastructure can be cloud-based for scalability and performance, while a backup and storage system can be maintained on-premises for redundancy and security.

@@ -168,5 +168,5 @@ The authentication and authorization service must support multifactor authentica
 ### 10.5. Integration with Identity Providers
 The authentication and authorization service must integrate with identity providers, such as Google, Facebook, or LinkedIn, to enable easy and secure login for users.
 
-# Conclusion
+## Conclusion
 The functional requirements document outlines the necessary functionality and features required to support the creation, management, and distribution of content across print and digital platforms, as well as the requirements for infrastructure and cost optimization and authentication and authorization. These requirements will ensure that ACME Publishing's digital transformation project is successful and meets its objectives.
