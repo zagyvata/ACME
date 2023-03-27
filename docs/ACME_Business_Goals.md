@@ -1,4 +1,6 @@
 # ACME Digital Transformation Business Goals
+author: zagyvata
+
 ## Who we are
 We are ACME Publishing, with over 60 years of history, currently having a portfolio of 30+ monthly and weekly papers, 5+ daily newspapers, several books (cookbocks, lifestyle), and couple of CD's, mostly thematic, anthologies, best of's, not tied to a specific artist. They sell merchandise and items related to the content. They also have a couple of portals, some of them run on the same name as prints, sometimes with diverging content, sometimes with digital republish of print materials. Over the time they decomissioned around 30 more periodicals.
 
