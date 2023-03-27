@@ -93,12 +93,113 @@ The interface must be designed to be user-friendly and intuitive for all users, 
 
 ## 4. OCR and Digitization Requirements
 
-### 4.1. OCR Capabilities
-The OCR system must be able to recognize text from scanned images, including older print materials before 1985.
-The system must be able to stamp a unique ID on each digitized page and use that as the unique ID when storing.
+## 4.1. OCR Capabilities
+The OCR system must be able to recognize text from scanned images, including older print materials before 1985. The system must use advanced OCR algorithms that can accurately identify different fonts, font sizes, and text orientations, including multi-column layouts and text embedded within images. It must also be capable of handling various document types, such as newspapers, magazines, and books.
 
-### 4.2. Digitization
-The OCR system must digitize all print materials and convert them to searchable text format.
+## 4.2. Image Preprocessing
+The OCR and digitization system must include image preprocessing capabilities to optimize the quality of scanned images before performing OCR. This may involve tasks such as image rotation, skew correction, noise reduction, and contrast enhancement to improve text recognition accuracy.
+
+## 4.3. Language Support
+The OCR system must support multiple languages, including but not limited to English, Spanish, French, and German, to cater to ACME Publishing's diverse audience. It should also be capable of detecting and recognizing multiple languages within a single document.
+
+## 4.4. Digitization
+The OCR system must digitize all print materials and convert them to searchable text format. The output should be in a standard format, such as PDF or ePub, with metadata like title, author, and publication date embedded for easy organization and retrieval.
+
+## 4.5. Quality Assurance and Error Correction
+The OCR and digitization system must include quality assurance and error correction features to ensure the accuracy and consistency of the digitized text. This may involve automated error detection, manual review and correction interfaces, and the ability to track and review changes made during the error correction process.
+
+## 4.6. Integration with CMS and Editor Tool
+The OCR and digitization system must seamlessly integrate with the CMS and Editor Tool, allowing editors to access and manage digitized versions of print materials, perform OCR on newly scanned documents, and incorporate digitized content into new articles or publications as needed.
+
+## 4.7. Batch Processing and Scheduling
+The OCR and digitization system should support batch processing and scheduling features to enable the efficient processing of large volumes of print materials. This may involve processing multiple documents simultaneously or scheduling OCR tasks to run during off-peak hours to minimize the impact on system performance.
+
+## 4.8. Progress Monitoring and Reporting
+The OCR and digitization system must provide progress monitoring and reporting capabilities, allowing editors and administrators to track the progress of ongoing digitization tasks, view statistics on processed documents and OCR accuracy, and receive notifications of any issues or errors encountered during the process.
+
+## 4.9. Unique ID Stamping and Archiving
+
+## 4.9.1. Unique ID Generation
+The OCR and digitization system must generate a unique identifier for each scanned document. This identifier should be based on a standardized format and include elements such as a timestamp, document type, and a sequence number to ensure uniqueness.
+
+## 4.9.2. ID Stamping
+The unique identifier must be stamped onto the scanned document, either as a watermark, a barcode, or a QR code. The stamping method should be unobtrusive and not interfere with the legibility of the document, while still being easily detectable by the system.
+
+## 4.9.3. Separate Storage for Stamped Instances
+Stamped document instances must be stored separately in a dedicated archive. This archive should be organized in a structured manner, allowing for easy retrieval of specific document instances based on their unique identifiers. The archive should also provide redundancy and backup capabilities to ensure the long-term preservation and availability of the stamped documents.
+
+## 4.9.4. Integration with CMS and Other Systems
+The unique ID stamping and archiving process must be seamlessly integrated with the CMS and other relevant systems. This will enable editors and administrators to search for, retrieve, and manage stamped document instances, as well as track the history and provenance of the documents throughout their lifecycle.
+
+## 4.10. Scanning PPI Requirements
+
+## 4.10.1. Minimum PPI for Text Documents
+For text-based documents, the OCR and digitization system must support a minimum scanning resolution of 300 pixels per inch (PPI). This resolution is sufficient for ensuring the legibility and quality of the scanned text while maintaining a reasonable file size.
+
+## 4.10.2. Minimum PPI for Images and Photographs
+For images and photographs, the system should support a minimum scanning resolution of 600 PPI. This higher resolution is necessary to capture fine details and preserve the quality of the original images, particularly when they are used for print or high-resolution digital display.
+
+## 4.10.3. Adjustable PPI Settings
+The OCR and digitization system should allow for adjustable PPI settings to accommodate different types of documents and use cases. Users should be able to select the desired scanning resolution based on factors such as document type, intended use, and storage constraints.
+
+## 4.10.4. Automatic PPI Detection and Adjustment
+The system should include an automatic PPI detection and adjustment feature that can analyze the content of a document and select the most appropriate scanning resolution. This feature can help optimize the scanning process by ensuring that the proper resolution is used for each document, without the need for manual intervention.
+
+## 4.10.5. PPI Considerations for Archiving
+When storing scanned documents in the archive, it is essential to consider the PPI requirements for long-term preservation and future use. The system should store high-resolution versions of the documents to ensure that they can be easily accessed and reproduced in the future, even as technology and display resolutions continue to evolve.1. OCR Capabilities
+The OCR system must be able to recognize text from scanned images, including older print materials before 1985. The system must use advanced OCR algorithms that can accurately identify different fonts, font sizes, and text orientations, including multi-column layouts and text embedded within images. It must also be capable of handling various document types, such as newspapers, magazines, and books.
+
+## 4.2. Image Preprocessing
+The OCR and digitization system must include image preprocessing capabilities to optimize the quality of scanned images before performing OCR. This may involve tasks such as image rotation, skew correction, noise reduction, and contrast enhancement to improve text recognition accuracy.
+
+## 4.3. Language Support
+The OCR system must support multiple languages, including but not limited to English, Spanish, French, and German, to cater to ACME Publishing's diverse audience. It should also be capable of detecting and recognizing multiple languages within a single document.
+
+## 4.4. Digitization
+The OCR system must digitize all print materials and convert them to searchable text format. The output should be in a standard format, such as PDF or ePub, with metadata like title, author, and publication date embedded for easy organization and retrieval.
+
+## 4.5. Quality Assurance and Error Correction
+The OCR and digitization system must include quality assurance and error correction features to ensure the accuracy and consistency of the digitized text. This may involve automated error detection, manual review and correction interfaces, and the ability to track and review changes made during the error correction process.
+
+## 4.6. Integration with CMS and Editor Tool
+The OCR and digitization system must seamlessly integrate with the CMS and Editor Tool, allowing editors to access and manage digitized versions of print materials, perform OCR on newly scanned documents, and incorporate digitized content into new articles or publications as needed.
+
+## 4.7. Batch Processing and Scheduling
+The OCR and digitization system should support batch processing and scheduling features to enable the efficient processing of large volumes of print materials. This may involve processing multiple documents simultaneously or scheduling OCR tasks to run during off-peak hours to minimize the impact on system performance.
+
+## 4.8. Progress Monitoring and Reporting
+The OCR and digitization system must provide progress monitoring and reporting capabilities, allowing editors and administrators to track the progress of ongoing digitization tasks, view statistics on processed documents and OCR accuracy, and receive notifications of any issues or errors encountered during the process.
+
+## 4.9. Unique ID Stamping and Archiving
+
+### 4.9.1. Unique ID Generation
+The OCR and digitization system must generate a unique identifier for each scanned document. This identifier should be based on a standardized format and include elements such as a timestamp, document type, and a sequence number to ensure uniqueness.
+
+### 4.9.2. ID Stamping
+The unique identifier must be stamped onto the scanned document, either as a watermark, a barcode, or a QR code. The stamping method should be unobtrusive and not interfere with the legibility of the document, while still being easily detectable by the system.
+
+### 4.9.3. Separate Storage for Stamped Instances
+Stamped document instances must be stored separately in a dedicated archive. This archive should be organized in a structured manner, allowing for easy retrieval of specific document instances based on their unique identifiers. The archive should also provide redundancy and backup capabilities to ensure the long-term preservation and availability of the stamped documents.
+
+### 4.9.4. Integration with CMS and Other Systems
+The unique ID stamping and archiving process must be seamlessly integrated with the CMS and other relevant systems. This will enable editors and administrators to search for, retrieve, and manage stamped document instances, as well as track the history and provenance of the documents throughout their lifecycle.
+
+## 4.10. Scanning PPI Requirements
+
+### 4.10.1. Minimum PPI for Text Documents
+For text-based documents, the OCR and digitization system must support a minimum scanning resolution of 300 pixels per inch (PPI). This resolution is sufficient for ensuring the legibility and quality of the scanned text while maintaining a reasonable file size.
+
+### 4.10.2. Minimum PPI for Images and Photographs
+For images and photographs, the system should support a minimum scanning resolution of 600 PPI. This higher resolution is necessary to capture fine details and preserve the quality of the original images, particularly when they are used for print or high-resolution digital display.
+
+### 4.10.3. Adjustable PPI Settings
+The OCR and digitization system should allow for adjustable PPI settings to accommodate different types of documents and use cases. Users should be able to select the desired scanning resolution based on factors such as document type, intended use, and storage constraints.
+
+### 4.10.4. Automatic PPI Detection and Adjustment
+The system should include an automatic PPI detection and adjustment feature that can analyze the content of a document and select the most appropriate scanning resolution. This feature can help optimize the scanning process by ensuring that the proper resolution is used for each document, without the need for manual intervention.
+
+### 4.10.5. PPI Considerations for Archiving
+When storing scanned documents in the archive, it is essential to consider the PPI requirements for long-term preservation and future use. The system should store high-resolution versions of the documents to ensure that they can be easily accessed and reproduced in the future, even as technology and display resolutions continue to evolve.
 
 ## 5. Publishing Software Requirements
 ### 5.1. Digital Golden Source Management
@@ -141,7 +242,7 @@ The e-commerce platform must integrate with a payment gateway to enable secure a
 ### 6.4. Inventory Management
 The e-commerce platform must include inventory management features to track stock levels and prevent overselling.
 
-##7. Paywall Subsystem Requirements
+## 7. Paywall Subsystem Requirements
 ### 7.1. Configurable Paywall Subsystem
 The paywall subsystem must be configurable for everything digital, allowing editors to set access restrictions and pricing for individual articles.
 
